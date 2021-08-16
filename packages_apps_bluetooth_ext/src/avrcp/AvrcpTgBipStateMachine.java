@@ -54,7 +54,7 @@ import android.util.Log;
  */
 public class AvrcpTgBipStateMachine extends StateMachine {
     private String TAG = "AvrcpBipSM";
-    private final boolean DEBUG = true;
+    private final boolean DEBUG = false;
     static final int DISCONNECT = 1;
     private Context mCtx;
     private final Finished mFinished = new Finished();

@@ -8,7 +8,7 @@
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *	
+ *
  *      http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
@@ -100,7 +100,7 @@ import java.util.concurrent.ConcurrentHashMap;
  ******************************************************************************/
 
 public final class Avrcp_ext {
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
     private static final String TAG = "Avrcp_ext";
     private static final String ABSOLUTE_VOLUME_BLACKLIST = "absolute_volume_blacklist";
     private static final String AVRCP_VERSION_PROPERTY = "persist.bluetooth.avrcpversion";

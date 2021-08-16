@@ -40,7 +40,7 @@ import java.util.Stack;
  ************************************************************************************************/
 
 class BrowsedMediaPlayer_ext {
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
     private static final String TAG = "BrowsedMediaPlayer_ext";
 
     /* connection state with MediaBrowseService */

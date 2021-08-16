@@ -54,7 +54,7 @@ import com.android.bluetooth.btservice.ProfileService;
  */
 public class AvrcpControllerBipStateMachine extends StateMachine {
 
-    private static final boolean DBG = true;
+    private static final boolean DBG = false;
     static final String TAG = "AvrcpControllerBipStateMachine";
     // messages from/to  AvrcpStateMachine
     public static final int MESSAGE_CONNECT_BIP                                  = 1;

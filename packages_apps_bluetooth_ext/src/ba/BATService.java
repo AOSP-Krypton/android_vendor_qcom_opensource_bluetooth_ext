@@ -69,7 +69,7 @@ import java.nio.ByteBuffer;
  */
 public class BATService extends ProfileService {
 
-    private static final boolean DBG = true;
+    private static final boolean DBG = false;
     private static final String TAG = "BATService";
 
     private static final int NUM_SERIVCE_RECORD = 1;

@@ -73,7 +73,7 @@ import java.util.ArrayList;
 
 class AvrcpControllerBipObexHandler extends Handler {
     private static final String TAG = "AvrcpControllerBipObexHandler";
-    private static final boolean DBG = true;
+    private static final boolean DBG = false;
     private static final boolean VDBG = AvrcpControllerService.VDBG;
     private final Handler  mAvrcpBipSMHandler;
     private ObexTransport mTransport;

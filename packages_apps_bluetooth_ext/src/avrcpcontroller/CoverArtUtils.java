@@ -46,7 +46,7 @@ public class CoverArtUtils {
 
     private final String TAG = "AvrcpControllerCoverArt";
 
-    private static final boolean DBG = true;
+    private static final boolean DBG = false;
 
     private final String EXTRA_METADATA_IS_INVALID_HANDLE = "is_invalid_handle";
 
